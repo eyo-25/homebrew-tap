@@ -2,7 +2,7 @@
 # version 과 sha256 은 release.sh 가 릴리스마다 갱신한다(두 줄의 들여쓰기·따옴표 형식을 바꾸지 말 것).
 cask "quickstream" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "57ac5bbc71c4dda755a0ef5d81c45655eaf1b72cb6c44f3d9102a405e6a34953"
 
   url "https://github.com/eyo-25/quickstream/releases/download/v#{version}/QuickStream-#{version}.zip"
   name "QuickStream"
