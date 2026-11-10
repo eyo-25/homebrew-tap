@@ -1,8 +1,8 @@
 # tap 저장소(eyo-25/homebrew-tap)의 Casks/quickstream.rb 에 들어갈 템플릿.
 # version 과 sha256 은 release.sh 가 릴리스마다 갱신한다(두 줄의 들여쓰기·따옴표 형식을 바꾸지 말 것).
 cask "quickstream" do
-  version "0.1.3"
-  sha256 "2c0b5872fcb4946b0fa91352bc31278985a9dcfa8500fe1136c365e7edc07bf0"
+  version "0.1.4"
+  sha256 "5ace46ac6d65fae642b77d7e5e8c5860d348a84a07b3e8d5049111a53120dc35"
 
   url "https://github.com/eyo-25/quickstream/releases/download/v#{version}/QuickStream-#{version}.zip"
   name "QuickStream"
